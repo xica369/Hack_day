@@ -6,7 +6,7 @@ object tic {
         var bandera:Int = 0
 
 
-        val computerOrP2 = readLine("\033[32mchoose between machine or player_2 ")
+        val computerOrP2 = readLine("\033[32mchoose between machine or player_2\n")
         var name_p1 = "Player 1"
         var name_p2 = "Player 2"
     }
@@ -166,11 +166,11 @@ object tic {
         var moveNumber = 0
         if (juanito.bandera == 0) {
             if (juanito.computerOrP2 == "player_2") {
-                juanito.name_p1 = readLine("\033[32mchoose player_1 name ")
-                juanito.name_p2 = readLine("\033[32mchoose player_2 name ")
+                juanito.name_p1 = readLine("\033[32mchoose player_1 name\n")
+                juanito.name_p2 = readLine("\033[32mchoose player_2 name\n")
                 println("\033[0m")
             } else if(juanito.computerOrP2 == "machine") {
-                juanito.name_p1 = readLine("\033[32mchoose player_1 name ")
+                juanito.name_p1 = readLine("\033[32mchoose player_1 name\n")
                 println("\033[0m")
             } else {
                 println("\033[31myou need to choose between machine or player_2!")
