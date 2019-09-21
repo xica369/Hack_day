@@ -3,6 +3,8 @@ ___
 
 Project from Holberton School Hack-day, the present project has been built in scala multi-paradigm (Functional programming and Object Oriented Programming) programming languaje. Also, as a Scala project you need to ensure that the package Scala and Java is on your machine.
 
+![N|Solid](https://i.redd.it/v6aucg2ju9k21.jpg)
+
 ___
 # Very basics of Scala and Play
 
