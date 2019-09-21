@@ -266,6 +266,13 @@ object tic {
 
     def main(args: Array[String]): Unit = {
         println("Hello, world!")
+        println("This project was made in The Scala Programming Language")
+        println("Authors: ----------------------------------------------")
+        println("->Ximena Andrade")
+        println("->Yesid Gonzalez")
+        println("->Alejandro Rey")
+        println("->Paula Gutierrez")
+        println("->Jeniffer Vanegas")
         Execution.init()
     }
 
