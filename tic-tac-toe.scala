@@ -134,6 +134,7 @@ object tic {
         println("\033[0m")
         var linea = readLine()
         var tokens = linea.split(" ")
+        var arr = Array("1", "2", "3")
 
         while (tokens.size != 2) {
             println("\033[31m\ninsert two numbers separated by single space!")  
@@ -142,6 +143,12 @@ object tic {
             tokens = linea.split(" ")
         }
         juanito.bandera = 1
+        while (!(arr contains (tokens(0))) || !(arr contains (tokens(1)))) {
+            println("\033[31m\ninsert two [numbers] separated by single space!")  
+            println("\033[0m")
+            linea = readLine()
+            tokens = linea.split(" ")
+        }
         var (row, col) = (tokens(0).toInt, tokens(1).toInt)
 
         val pos = Position(row.asInstanceOf[Long].toInt, col.asInstanceOf[Long].toInt)
